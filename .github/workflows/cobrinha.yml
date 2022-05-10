@@ -15,7 +15,8 @@ jobs:
         id: snake-gif
         with:
           github_user_name: leticiapriotto
-          outputs:     
+          outputs:   
+            dist/github-contribution-grid-snake.svg
             dist/ocean.gif?color_snake=pink&color
 
       - uses: crazy-max/ghaction-github-pages@v2.1.3
